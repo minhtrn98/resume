@@ -25,12 +25,12 @@ h1 {
 
 h2 {
   font-size: 1.5em;
-  padding-bottom: 1em;
+  padding-bottom: 0.5em;
 }
 
 main {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 35% 65%;
   margin-top: 3em;
 }
 
@@ -40,7 +40,7 @@ header {
 }
 
 section {
-  margin: auto 1em 4em 2em;
+  margin: auto 1em 2em 2em;
 }
 
 i {
@@ -61,6 +61,11 @@ h1,
 h2 {
   font-weight: 100;
   margin-bottom: 0;
+}
+
+h3 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 #mainLeft {
