@@ -5,12 +5,12 @@ body {
   margin: auto;
 }
 
-h1 {
+/* h1 {
   font-size: 3em;
   letter-spacing: 0.6em;
   padding-top: 2em;
   padding-bottom: 2em;
-}
+} */
 
 #header {
   position: relative;
@@ -70,4 +70,12 @@ h3 {
 
 #mainLeft {
   border-right: 1px solid lightgray;
+
+  section.name {
+    h1 {
+      font-size: 3em;
+      letter-spacing: 0.15em;
+      margin-top: 0 !important;
+    }
+  }
 }
