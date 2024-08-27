@@ -30,7 +30,7 @@ h2 {
 
 main {
   display: grid;
-  grid-template-columns: 35% 65%;
+  grid-template-columns: 30% 70%;
   margin-top: 3em;
 }
 
@@ -74,7 +74,7 @@ h3 {
   section.name {
     h1 {
       font-size: 3em;
-      letter-spacing: 0.15em;
+      /* letter-spacing: 0.15em; */
       margin-top: 0 !important;
     }
   }
