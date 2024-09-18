@@ -5,49 +5,14 @@ body {
   margin: auto;
 }
 
-#header {
-  position: relative;
-}
-#avatar-block {
-  display: flex;
-  justify-content: center;
-  .circle {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 5px solid white;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f0f0f0;
-  }
-
-  .circle img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-}
-
 main {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 35% 65%;
   margin-top: 3em;
 }
 
-header {
-  text-align: center;
-  margin: auto 2em;
-}
-
 section {
-  margin: auto 1em 2em 2em;
-}
-
-section#contact {
-  margin-right: 0 !important;
+  margin: auto 1em 1em 1em;
 }
 
 i {
@@ -56,16 +21,6 @@ i {
 
 p {
   margin: 0.2em auto;
-}
-
-p#about {
-  text-align: justify;
-}
-
-p#level {
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
-  padding: 5px 0;
 }
 
 hr {
@@ -85,19 +40,82 @@ h2 {
   border-bottom: 1px solid gray;
 }
 
-h3 {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-}
-
 #mainLeft {
   border-right: 1px solid lightgray;
 
   section.name {
     h1 {
       font-size: 3em;
-      /* letter-spacing: 0.15em; */
       margin-top: 0 !important;
     }
+  }
+
+  section#contact {
+    margin-right: 0 !important;
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+  }
+
+  p#level {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 5px 0;
+  }
+
+  #avatar-block {
+    display: flex;
+    justify-content: center;
+
+    .circle {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 5px solid white;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f0f0f0;
+    }
+
+    .circle img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .skills-container {
+    .category h3 {
+      color: #007bff;
+      margin: 0;
+      margin-bottom: 0.2em;
+    }
+
+    .category ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin: 0 0 0.7em 0;
+    }
+
+    .category li {
+      display: inline;
+      margin-right: 5px;
+    }
+  }
+}
+
+#mainRight {
+  p#about {
+    text-align: justify;
+  }
+
+  h3 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    color: #007bff;
   }
 }
