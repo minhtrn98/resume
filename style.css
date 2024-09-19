@@ -99,12 +99,27 @@ h2 {
       list-style-type: none;
       padding-left: 0;
       margin: 0 0 0.7em 0;
+      display: flex;
+      flex-wrap: wrap;
+      /* column-gap: 15px; */
+      column-gap: 12px;
+      row-gap: 8px;
     }
 
     .category li {
       display: inline;
-      margin-right: 5px;
+      position: relative;
     }
+
+    /* .category li:not(:last-child)::after {
+      content: "•";
+      position: absolute;
+      right: -11px;
+      bottom: 0px;
+      color: #4b4b4b;
+      font-size: 0.75rem;
+      margin-left: 5px;
+    } */
   }
 }
 
